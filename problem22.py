@@ -10,7 +10,7 @@ def name_value(name):
     return value
 
 def main():
-    readingobject = open("names.txt","r")
+    readingobject = open("constants\\namesfor22.txt","r")
     names = readingobject.read().split(",")
     names = [name.replace("\"","").lower() for name in names]
     names.sort()
