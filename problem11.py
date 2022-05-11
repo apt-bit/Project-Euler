@@ -1,5 +1,4 @@
 import math
-#testing changes
 
 def horizontal(grid):
     fours = []
@@ -38,7 +37,7 @@ def diagonallyleft(grid):
     return fours
 
 def main():
-    f = open('gridfor11.txt', 'r')
+    f = open('constants\\gridfor11.txt', 'r')
     grid = f.read()
     f.close()
     grid = [int(i) for i in grid.replace('\n',' ').split(' ')]
