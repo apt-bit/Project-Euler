@@ -1,5 +1,5 @@
 def sumbignum():
-    f = open('bignumberfor13.txt', 'r')
+    f = open('constants\\bignumberfor13.txt', 'r')
     n = [int(x) for x in f.read().split('\n')]
     f.close()
 
