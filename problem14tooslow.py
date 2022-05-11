@@ -5,7 +5,7 @@ sys.setrecursionlimit(1500)
 
 @functools.cache
 def collatzrec(n, count=0):
-    #recursion limit reached annoyingly
+    #takes too long to execute, approx 15 seconds
     if n==0:
         return 1
     if n==1:
